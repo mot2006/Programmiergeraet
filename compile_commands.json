@@ -1,0 +1,21 @@
+[
+ {
+  "directory": "/home/tom/Projekte/Programmiergeraet",
+  "arguments": [
+   "avr-gcc",
+   "-DF_CPU=16000000UL",
+   "-mmcu=atmega2560",
+   "-Wall",
+   "-Wextra",
+   "-Werror",
+   "-Wshadow",
+   "-Og",
+   "-g",
+   "-c",
+   "-o",
+   "Ausgabe/obj/main.o",
+   "Hauptdateien/main.c"
+  ],
+  "file": "Hauptdateien/main.c"
+ }
+]
